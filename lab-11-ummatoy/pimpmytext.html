@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Pimp My Text!</title>
+		<link href="pimpmytext.css" rel="stylesheet" type="text/css" />
+		<!-- link to your script file here -->
+		<script type="text/javascript" src="pimpmytext.js"></script>
+	</head>
+
+	<body>
+		<h1>Pimp My Text</h1>
+		<div>
+			<img src="geek.jpg" alt="Pimpin' it, geek!" />
+		</div>
+
+		<!-- Your UI controls go here -->
+		<fieldset>
+			<legend>Text</legend>
+			<textarea id="sampletext" rows="4" cols="30">I will note close my heart beacause of my eyes</textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Pimpification</legend>
+				<button onclick="fontSize();">Bigger Pimpin!</button> <br>
+				<label><input type="checkbox" id="pimp" onclick="textStyle();"> Bling</label> <br><br>
+				<button onclick="snoopify();">Snoopify</button>
+		</fieldset>
+
+		
+	</body>
+</html>
